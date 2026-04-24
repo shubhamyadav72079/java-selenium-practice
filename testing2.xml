@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="LoginSuite">
+    <test name="LoginTest">
+
+        <groups>
+            <run>
+                <include name="smoke"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="pages.Login"/>
+            <class name="pages.dropDown"/>
+            <class name="pages.checkBox"/>
+            <class name="pages.waitHandling"/>
+        </classes>
+
+    </test>
+
+
+</suite>
